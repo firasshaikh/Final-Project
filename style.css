@@ -189,6 +189,6 @@ figure {
   .responsive {
     flex-direction: column;
     background-color: #EBEBE0;
-    /*margin: 50px;*/
+    margin: 50px;
   }
 }
