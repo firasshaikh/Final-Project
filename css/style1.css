@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #ebd4ae;
+    font-family: Arial;
+}
+
+h1 {
+	font-family: "Averia Serif Libre Bold";
+}
+
+h2 {
+	font-family: "Bradley Hand ITC";
+	font-size: 50px;
+}
+
+h3 {
+    font-family: times;
+}
+.home {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+
+main {
+	text-align: center;
+}
+
+img {
+	justify-content: center;
+	border: 5px solid #674F36;
+	border-radius: 4px;
+	margin: 2px;
+	padding: 1px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+}
+
+li {
+    padding: 20px;
+    display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: #755522;
+	font-size: 20px;
+}
+a:hover {
+    color: #c7c39b;
+    text-shadow: 2px 2px 2px black;
+}
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+#123 {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#123 > div {
+	width: 30%;
+	height: auto;
+}
+
+form {
+	border-radius: 4px;
+}
+
+input[type=text] {
+	height: 40px;
+	width: 40%;
+	padding: 0px 10px;
+	border: 1px solid #606060;
+	border-radius: 5px;
+	font-family: calibri mt;
+	font-size: 17px
+}
+
+input[type=email] {
+	height: 40px;
+	width: 85%;
+	padding: 0px 10px;
+	border: 1px solid #606060;
+	border-radius: 5px;
+	font-family: calibri mt;
+	font-size: 17px	
+}
+
+label {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+input[type=number] {
+	height: 40px;
+	width: 85%;
+	padding: 0px 10px;
+	border: 1px solid #606060;
+	border-radius: 5px;
+	font-family: calibri mt;
+	font-size: 17px	
+}
+
+input[type=submit] {
+	color: aliceblue;
+	text-shadow: 2px 2px 2px solid black;
+	background-color: #AE8E6E;
+	width: 100px;
+	height: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+}
+
+.div1 {
+	border: 2px solid #AA9A5B;
+	border-radius: 4px;
+	padding: 10px;
+	overflow: auto;
+}
+
+.img {
+	float: left;
+	width: 90px;
+	height: 100px;
+}
+
+.div11 {
+	padding: 0px 20px;
+	float: left;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+}
+
+section {
+    text-align: left;
+    background-color: #7B7B6A;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+h4 {
+    font-size: 18px;
+    color: #755522;
+}
+.cabins .amenities li {
+    display: list-item;
+}
+.amenities {
+    border: 2px solid brown;
+    background-color: beige;
+}
+
+
+.cabins {
+    margin: 50px;
+    text-align: left;
+}
